@@ -145,8 +145,11 @@
  h3{
    font-size: x-large;
  }
- body{
-   background-color: rgb(219, 161, 54);
+ .body1{
+   background-color:white;
+ }
+ h2{
+   background-color: rgb(228, 181, 82);
  }
  
 
