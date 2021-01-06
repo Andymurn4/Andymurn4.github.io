@@ -1,9 +1,9 @@
-.topnav {
+
+
+  .topnav {
     background-color: rgb(204, 151, 38);
     overflow: hidden;
   }
-  
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #2a4c63;
@@ -12,22 +12,12 @@
     text-decoration: none;
     font-size: 17px;
   }
-  
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  .Banner {
-    max-width: 100%;
-    height: auto;
-}
+
 .column {
     float: left;
     width: 45%;
@@ -93,6 +83,30 @@
       text-decoration: underline;
   }
   
-  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  } 
 
+ .Banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 10;
+    width: 10;
+ }
+ .Descrition{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color:black;
+    background-color: coral;
+    
+ }
+ .BannerImg{
+    max-width: 100%;
+    height: auto;
+
+ }
 
