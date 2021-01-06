@@ -1,10 +1,9 @@
 
+
   .topnav {
     background-color: rgb(204, 151, 38);
     overflow: hidden;
   }
-  
-  
   .topnav a {
     float: left;
     color: #2a4c63;
@@ -13,18 +12,82 @@
     text-decoration: none;
     font-size: 17px;
   }
-  
- 
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
+
+.column {
+    float: left;
+    width: 45%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .column2{
+    float: right;
+    width: 45%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #77579c;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 24px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  footer{
+      color:white;
+      background-color: #77579c;
+  }
+  a{
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+  }
   
   .topnav a.active {
     background-color: #4CAF50;
     color: white;
   } 
+
  .Banner{
     position: relative;
     text-align: center;
@@ -46,3 +109,4 @@
     height: auto;
 
  }
+
