@@ -5,7 +5,7 @@
     overflow: hidden;
   }
   .topnav a {
-    float: left;
+    float:left;
     color: #2a4c63;
     text-align: center;
     padding: 14px 16px;
@@ -39,7 +39,7 @@
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #77579c;
+    background-color:rgb(204, 151, 38);
     color: white;
   }
   
@@ -75,7 +75,7 @@
 
   footer{
       color:white;
-      background-color: #77579c;
+      background-color:rgb(204, 151, 38);
   }
   a{
       color: white;
@@ -109,6 +109,51 @@
     height: auto;
 
  }
+
+ .ImageBox1{
+   display:block;
+   margin-left: 10;
+   font-family: monospace;
+   margin-right:10;
+   background-color: rgb(228, 181, 82);
+ }
+
+ .ImageBox2{
+  display:block;
+  margin-left: 10;
+  font-family: monospace;
+  margin-right:10;
+  background-color: rgb(228, 181, 82);
+ }
+ .ImageBox3{
+  display:block;
+  margin-left: 10;
+  font-family: monospace;
+  margin-right:10;
+  background-color: rgb(228, 181, 82);
+ }
+ .ImageBox4{
+  display:block;
+  margin-left: 10;
+  font-family: monospace;
+  margin-right:10;
+  background-color: rgb(228, 181, 82);
+ }
+ h5{
+   font-size:x-large;
+   font-family: monospace;
+ }
+ h3{
+   font-size: x-large;
+ }
+ .body1{
+   background-color:white;
+ }
+ h2{
+   background-color: rgb(228, 181, 82);
+ }
+ 
+
  .topnav1 {
   background-color: rgb(204, 151, 38);
   overflow: hidden;
@@ -179,4 +224,5 @@ input[type=email]{
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
 
